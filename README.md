@@ -1,10 +1,14 @@
 # RalphViewTool
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ralph_view_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+> Various view specific methods for applications I use from a course I took.
 
 ## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'devcamp_view_tool'
+```
 
 Install the gem and add to the application's Gemfile by executing:
 
@@ -16,7 +20,9 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+DevcampViewTool::Renderer.copyright 'Christopher Ralph', 'All rights reserved'
+```
 
 ## Development
 
