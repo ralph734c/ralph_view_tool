@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'devcamp_view_tool'
+gem 'ralph_view_tool'
 ```
 
 Install the gem and add to the application's Gemfile by executing:
